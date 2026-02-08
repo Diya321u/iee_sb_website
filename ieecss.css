@@ -1,0 +1,560 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+body {
+  background-color: #f4f6f8;
+  color: #333333;
+}
+
+header {
+  background-color: #000000;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  padding: 12px 24px;
+}
+
+.logo img {
+  height: 45px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  margin-left: auto;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-links a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.nav-links a:hover {
+  color: #cfd8dc;
+}
+
+#home {
+  padding: 70px 20px;
+  text-align: center;
+}
+
+.hbanner h1 {
+  font-size: 38px;
+  color: #00629b;
+}
+
+.hbanner h2 {
+  font-size: 22px;
+  margin: 8px 0;
+}
+
+.tagline {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 12px 0 22px;
+}
+
+.cta-btn {
+  padding: 12px 28px;
+  background-color: #00629b;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.cta-btn:hover {
+  background-color: #004f7c;
+}
+
+.home-overview {
+  max-width: 900px;
+  margin: 45px auto;
+  font-size: 16px;
+  line-height: 1.7;
+  text-align: justify;
+}
+
+.home-highlights {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.highlight-box {
+  background-color: #ffffff;
+  padding: 18px 26px;
+  border-radius: 6px;
+  font-weight: 600;
+  width: 220px;
+  text-decoration: none;
+  color: #333333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s ease;
+}
+
+.highlight-box:hover {
+  background-color: #f4f6f8;
+}
+
+.about-ieee {
+  padding: 60px 20px;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.about-ieee h2 {
+  font-size: 32px;
+  color: #00629b;
+  margin-bottom: 25px;
+}
+
+.about-ieee h3 {
+  font-size: 22px;
+  color: #00629b;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.about-ieee p {
+  max-width: 900px;
+  margin: 0 auto 15px;
+  font-size: 16px;
+  line-height: 1.7;
+  text-align: justify;
+}
+
+.ieee-benefits {
+  max-width: 750px;
+  margin: 0 auto 30px;
+  text-align: left;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.ieee-benefits li {
+  margin-bottom: 8px;
+}
+
+.about-sb {
+  padding: 60px 20px;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.about-sb h2 {
+  font-size: 32px;
+  color: #00629b;
+  margin-bottom: 30px;
+}
+
+.about-sb h3 {
+  font-size: 22px;
+  color: #00629b;
+  margin-top: 35px;
+  margin-bottom: 10px;
+}
+
+.sb-stats {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+}
+
+.stat-box {
+  background-color: #f4f6f8;
+  padding: 20px 30px;
+  border-radius: 6px;
+  width: 200px;
+}
+
+.stat-box h3 {
+  font-size: 28px;
+  color: #00629b;
+}
+
+.stat-box p {
+  margin-top: 8px;
+  font-weight: 600;
+}
+
+.sb-description {
+  max-width: 950px;
+  margin: 0 auto 40px;
+  text-align: left;
+}
+
+.sb-description p {
+  font-size: 16px;
+  line-height: 1.7;
+  margin-bottom: 15px;
+  text-align: justify;
+}
+
+.sb-links {
+  max-width: 900px;
+  margin: auto;
+  text-align: left;
+}
+
+.sb-links h3 {
+  margin-bottom: 15px;
+  color: #00629b;
+}
+
+.sb-links ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.sb-links li {
+  margin-bottom: 8px;
+}
+
+.sb-links a {
+  color: #00629b;
+  text-decoration: none;
+}
+
+.sb-links a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 12px;
+  }
+
+  .nav-links li {
+    margin: 8px;
+  }
+
+  .hbanner h1 {
+    font-size: 28px;
+  }
+
+  .hbanner h2 {
+    font-size: 18px;
+  }
+
+  .sb-stats {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .stat-box {
+    width: 100%;
+    max-width: 280px;
+  }
+
+}
+
+.footer {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 50px 20px 20px;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 40px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.footer-section h3 {
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 8px;
+}
+
+.footer a {
+  color: #cfd8dc;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.footer-section p {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.footer-text {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 13px;
+  color: #cfd8dc;
+}
+
+.events {
+  padding: 60px 20px;
+  background-color: #f4f6f8;
+  text-align: center;
+}
+
+.events h2 {
+  font-size: 32px;
+  color: #00629b;
+  margin-bottom: 10px;
+}
+
+.events h3 {
+  font-size: 22px;
+  color: #00629b;
+  margin: 30px 0 20px;
+}
+
+.featured-events {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+  max-width: 1100px;
+  margin: 0 auto 50px;
+}
+
+.event-card {
+  background-color: #ffffff;
+  border-radius: 6px;
+  overflow: hidden;
+  text-align: left;
+}
+
+.event-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.event-card h4 {
+  color: #00629b;
+  margin: 15px;
+  font-size: 18px;
+}
+
+.event-card p {
+  margin: 0 15px 15px;
+  font-size: 15px;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+.events-table {
+  width: 90%;
+  max-width: 900px;
+  margin: auto;
+  border-collapse: collapse;
+  background-color: #ffffff;
+}
+
+.events-table th,
+.events-table td {
+  border: 1px solid #cccccc;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.events-table th {
+  background-color: #e6eef5;
+  color: #00629b;
+}
+.societies {
+  padding: 60px 20px;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.societies h2 {
+  font-size: 32px;
+  color: #00629b;
+  margin-bottom: 20px;
+}
+
+.societies-intro {
+  max-width: 900px;
+  margin: 0 auto 40px;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+.societies-container,
+.affinity-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+  max-width: 1100px;
+  margin: 0 auto 40px;
+}
+
+.society-box {
+  background-color: #f4f6f8;
+  padding: 20px;
+  border-radius: 6px;
+  text-align: left;
+}
+
+.society-box h3 {
+  color: #00629b;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.society-box p {
+  font-size: 15px;
+  line-height: 1.6;
+  text-align: justify;
+}
+.committee {
+  padding: 60px 20px;
+  background-color: #f4f6f8;
+  text-align: center;
+}
+
+.committee h2 {
+  font-size: 32px;
+  color: #00629b;
+  margin-bottom: 40px;
+}
+
+.committee-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 25px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.member-card {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 6px;
+}
+
+.member-card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 6px;
+  margin-bottom: 15px;
+}
+
+.member-card h3 {
+  color: #00629b;
+  font-size: 17px;
+  margin-bottom: 6px;
+}
+
+.member-card p {
+  font-size: 14px;
+  font-weight: 600;
+}
+.membership {
+  padding: 60px 20px;
+  background-color: #f4f6f8;
+  text-align: center;
+}
+
+.membership h2 {
+  font-size: 32px;
+  color: #00629b;
+  margin-bottom: 20px;
+}
+
+.membership-intro {
+  max-width: 900px;
+  margin: 0 auto 40px;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+.membership-benefits {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 25px;
+  max-width: 1100px;
+  margin: 0 auto 40px;
+}
+
+.benefit-box {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 6px;
+  text-align: left;
+}
+
+.benefit-box h3 {
+  color: #00629b;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.benefit-box p {
+  font-size: 15px;
+  line-height: 1.6;
+  text-align: justify;
+}
+.gallery {
+  padding: 60px 20px;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.gallery h2 {
+  font-size: 32px;
+  color: #00629b;
+  margin-bottom: 15px;
+}
+
+.gallery-intro {
+  max-width: 900px;
+  margin: 0 auto 40px;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+.gallery-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.gallery-container img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 6px;
+}
