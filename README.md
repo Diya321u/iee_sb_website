@@ -9,7 +9,7 @@ The website is a static informational platform developed to present details abou
 
 The website is publicly hosted using GitHub Pages and can be accessed at:
 
-https://github.io/ieee-sb-stm-website/
+https://Diya321u.github.io/ieee-sb-stm-website/
 
 ---
 
